@@ -233,7 +233,7 @@ id_objects, obj_hierarchy = pcv.find_objects(img=masked2, mask=ab_fill)
 #   y - The y-coordinate of the upper left corner of the rectangle 
 #   h - The height of the rectangle 
 #   w - The width of the rectangle 
-roi1, roi_hierarchy= pcv.roi.rectangle(img=masked2, x=100, y=100, h=1600, w=1400)
+roi1, roi_hierarchy= pcv.roi.rectangle(img=masked2, x=0, y=0, h=1500, w=1500)
 
 
 #%%
