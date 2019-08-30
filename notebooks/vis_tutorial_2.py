@@ -60,7 +60,7 @@ img, path, filename = pcv.readimage(filename=args.image)
 img = img[0:1500,1500:3000].copy()
 #cv2.imshow("cropped",crop_img)
 #cv2.waitKey(0)
-img
+#img
 
 
 #%%
@@ -334,5 +334,8 @@ top_y, bottom_y, center_v_y = pcv.y_axis_pseudolandmarks(img=img, obj=obj, mask=
 # fluor_fvfm, report_size_marker_area, watershed. If no functions have been run, it will print an empty text file 
 pcv.print_results(filename='vis_tutorial_results.txt')
 
-
+#%%
+# Will workflow collect outputs like this?
+pcv.outputs.observations['height']['value']
+pcv.outputs.observations['width']['value']
 

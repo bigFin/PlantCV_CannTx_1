@@ -13,7 +13,8 @@ C:/Users/Fin/OneDrive\ -\ Canntx\ Life\ Sciences/LAB_G/Image_analysis/Code/Plant
 -f id \
 -t jpg \
 -T 16 \
--w t \
+-w \
+-c
 
 
 
